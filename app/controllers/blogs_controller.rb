@@ -1,5 +1,6 @@
 class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy, :toggle_status1]
+  layout "blog"
 
   # GET /blogs
   # GET /blogs.json
