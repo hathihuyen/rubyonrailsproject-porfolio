@@ -60,4 +60,4 @@ gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails'
 
-gem 'huyen_view_tool', git: 'https://github.com/hathihuyen/huyen_view_tool'
+gem 'huyen_view_tool', '~> 0.1.0'
