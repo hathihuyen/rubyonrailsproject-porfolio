@@ -74,3 +74,5 @@ gem 'rails-ujs', '~> 5.1.0.beta1'
 gem 'dotenv-rails', '~> 2.4'
 gem 'carrierwave-aws', '~> 1.3'
 gem 'mini_magick', '~> 4.8'
+
+gem 'cocoon', '~> 1.2', '>= 1.2.11'
