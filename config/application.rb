@@ -35,7 +35,9 @@ module DevcampPortfolio
     # the framework and any gems in your application.
 
     # Don't generate system test files.
-    #config.generators.system_tests = nil
+    #config.generators.system_tests = nil    
     end
+
+    config.eager_load_paths << "#{Rails.root}/lib"
   end
 end
