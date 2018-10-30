@@ -184,9 +184,13 @@ h6, .h6 {
 /*
  * Custom Card-block
  */
-.card-block {
+.card .card-block {
   color: black;
   text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .auth-links a {
@@ -198,7 +202,7 @@ h6, .h6 {
 
 .login > .card {
   width: 22rem;
-  margin: 0 auto;
+  margin: 10px auto;
   float: none;
   margin-bottom: 10px;
 }
@@ -255,11 +259,6 @@ h6, .h6 {
 
 .app-card-container a {
   color: blue;
-}
-
-.card-block {
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 .skill {

@@ -2,14 +2,14 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8 py-4">
-        <h4 class="text-black">About Me</h4>
-        <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+        <h4 class="text-black">About My Portfolios</h4>
+        <p class="text-muted">There are some projects that I created for practice coding and testing that I learnt from professional online classes.</p>
       </div>
       <div class="col-sm-4 py-4">
         <h4 class="text-black">Explore</h4>
         <ul class="list-unstyled">
-          <%= nav_helper 'text-black', 'li' %>
-          <li><%= login_helper 'text-black' %></li>        
+          <%= nav_helper 'text-dark', 'li' %>
+          <li><%= login_helper 'text-dark' %></li>        
         </ul>
       </div>
     </div>
@@ -17,8 +17,8 @@
 </div>
 <div class="navbar navbar-inverse bg-inverse">
   <div class="container d-flex justify-content-between">
-    <a href="#" class="navbar-brand">Huyen Ha</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+    <%= link_to "Huyen Ha", root_path, class: 'navbar-brand' %>
+    <button class="navbar-toggler" type="button" data-toggle="collapse.show" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>

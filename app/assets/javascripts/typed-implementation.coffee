@@ -6,7 +6,7 @@ ready = ->
     ]
     typeSpeed: 0
     loop: true
-    loopCount: Infinity,
+    loopCount: Infinity
   return
 
 $(document).ready ready
