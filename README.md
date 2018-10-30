@@ -1,34 +1,27 @@
 # README
 
-> This README would normally document whatever steps are necessary to get the application up and running.
+> This is my portfolio web page that is built base on progressional grade Rails applications. All of my commit code here are coded through a real world approach to full stack coding.
 
-### Things you may want to cover:
+### The technology includes:
 
-* Ruby version
+* Backend development with Ruby on Rails 5
 
-* System dependencies
+* front end coding with HTML/CSS/JavaScript/jQuery
 
-* Configuration
+* Database management: PostgreSQL working with a Rails application.
 
-* Database creation
+* Pivotal tracker to follow SCRUM project management
 
-* Database initialization
+* Using Github for code commit.
 
-* How to run the test suite
+* Deploy my application on the web with Heroku
 
-* Services (job queues, cache servers, search engines, etc.)
+* API Integration with Twitter API to pull in real time tweets into the portfolio application
 
-* Deployment instructions
+* Create my own RubyGem from scratch and use it in my application
 
-* ...
+* Streaming Live Data/Page Updates with ActionCable
 
-### Code Example
-``` ruby
-def my_great_method
-  puts "here it is"
-end
-```
+* Using advanced JavaScript features, for example, drag and drop functionality for users and build dynamic forms that change based on user input, all without a page refresh!
 
-``` javascript
-alert('Hi there');
-```
+* Using Rails 5.2 encrypted credentials to securely manage configuration variables such as API and application secret keys.
